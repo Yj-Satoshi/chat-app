@@ -35,6 +35,7 @@
 }
 
 .rooms{
+
     width: 350px;
     height: calc(100vh - 85px);
     background-color: #2f3e51;
@@ -78,7 +79,9 @@
 }
 
 .messages{
+
     width: calc(100vw - 250px);
+
     height: calc(100vh - 190px);
     background-color: #fafafa;
     padding: 46px 40px 0 ;

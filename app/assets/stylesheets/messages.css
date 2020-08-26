@@ -39,6 +39,7 @@
     background-color: #2f3e51;
     padding: 0 20px;
     overflow: scroll;
+    /* overflow: scrollの使用時、右側と下側の部分の色が指定色にされない */
 }
 
 .room-name{
@@ -81,6 +82,7 @@
     background-color: #fafafa;
     padding: 46px 40px 0 ;
     overflow: scroll;
+    /* overflow: scrollの使用時、右側と下側の部分の色が指定色にされない */
 }
 .message{
     margin: 10px 0;

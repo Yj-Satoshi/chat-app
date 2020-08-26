@@ -17,6 +17,11 @@
     align-items: center;
 }
 
+.header-name a{
+    text-decoration: none;
+    color: #fafafa;
+    font-size: 16px;
+}
 .create-room a{
     color: deepskyblue;
     border: 1px solid lightblue;
@@ -28,22 +33,16 @@
     font-size: 10px;
 }
 
-.header-name a{
-    text-decoration: none;
-    color: #fafafa;
-    font-size: 16px;
-}
 
 .rooms{
-
-    width: 350px;
-    height: calc(100vh - 85px);
+    height: calc(100vh - 100px);
     background-color: #2f3e51;
     padding: 0 20px;
     overflow: scroll;
+    /* overflow: scrollの使用時、右側と下側の部分の色が指定色にされない */
 }
 
-.room{
+.room-name{
     padding: 20px 0 40px;  
 }
 .room-name a{
@@ -79,13 +78,11 @@
 }
 
 .messages{
-
-    width: calc(100vw - 250px);
-
     height: calc(100vh - 190px);
     background-color: #fafafa;
     padding: 46px 40px 0 ;
     overflow: scroll;
+    /* overflow: scrollの使用時、右側と下側の部分の色が指定色にされない */
 }
 .message{
     margin: 10px 0;
@@ -148,4 +145,8 @@
 }
 .hidden{
     display: none;
+}
+
+* {
+    box-sizing: border-box;
 }
